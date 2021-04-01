@@ -1,11 +1,17 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "AIO Library",
+  "name": "AIO Digital Library",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "src": "./favicon.svg",
+      "type": "image/svg",
+      "sizes": "16x16 24x24 32x32 64x64 128x128 256x256",
+      "purpose": "any maskable"
     },
     {
       "src": "logo192.png",
@@ -19,7 +25,20 @@
     }
   ],
   "start_url": ".",
-  "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "description": "A free and open library for all",
+  "display": "standalone",
+  "orientation": "any",
+  "url": "https://aio-library.netlify.com",
+  "categories": [
+    "free library",
+    "open library",
+    "library",
+    "free study material",
+    "aio library",
+    "free for all"
+  ],
+  "lang": "en-US",
+  "screenshots": []
 }
