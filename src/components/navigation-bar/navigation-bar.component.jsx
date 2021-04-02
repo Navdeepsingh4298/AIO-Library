@@ -1,10 +1,9 @@
 import React from "react";
-import "./navigation-bar.styles.css";
 
 function Navbar() {
   return (
     <div>
-      Navbar
+      this is nav bar
     </div >
   );
 }

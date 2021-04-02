@@ -1,14 +1,18 @@
 import React from "react";
-import "./footer.styles.css";
+
+//styled components
+import { FooterContainer } from "./footer.styles";
 
 function Footer() {
 
   const year = new Date().getFullYear();
 
   return (
-    <div className="footer">
+    <FooterContainer>
       <span>&copy; Copyright {year} Digital Library </span>
-    </div>
+      <a href="/about"> <span>ABOUT</span></a>
+      <a href="/contact"> <span>CONTACT</span></a>
+    </FooterContainer>
   );
 }
 
