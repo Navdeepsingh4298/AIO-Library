@@ -1,14 +1,11 @@
 import React from 'react'
-import { Button, AppBar, Toolbar, IconButton, Typography } from '@material-ui/core';
 
-
-function HomePage() {
+const HomePage = () => {
   return (
     <div>
-      this is homepage
-
+      <h2>home</h2>
     </div>
   )
 }
 
-export default HomePage;
+export default HomePage

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function register() {
+function Register() {
   return (
     <div>
       register page
@@ -8,4 +8,4 @@ function register() {
   )
 }
 
-export default register;
+export default Register;

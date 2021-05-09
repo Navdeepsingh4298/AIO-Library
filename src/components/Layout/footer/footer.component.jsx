@@ -10,8 +10,6 @@ function Footer() {
   return (
     <FooterContainer>
       <span>&copy; Copyright {year} Digital Library </span>
-      <a href="/about"> <span>ABOUT</span></a>
-      <a href="/contact"> <span>CONTACT</span></a>
     </FooterContainer>
   );
 }
