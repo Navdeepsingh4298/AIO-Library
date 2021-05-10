@@ -1,15 +1,26 @@
 import React from "react";
 
+import { Container, Link } from '@material-ui/core';
+
 //styled components
 import { FooterContainer } from "./footer.styles";
 
-function Footer() {
 
+function Footer() {
   const year = new Date().getFullYear();
 
   return (
     <FooterContainer>
-      <span>&copy; Copyright {year} Digital Library </span>
+      <Container>
+        <span>&copy; Copyright {year} Digital Library | Made in India by  </span>
+        <Link
+          href="https://github.com/Navdeepsingh4298/"
+          color="secondary"
+          underline="hover"
+          target="__blank"
+          rel="noreferrer"
+        >Navdeep Singh</Link>
+      </Container>
     </FooterContainer>
   );
 }

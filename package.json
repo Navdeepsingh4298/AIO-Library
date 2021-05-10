@@ -1,6 +1,8 @@
 {
   "name": "aio-library",
+  "homepage": "https://aio-library.netlify.app/",
   "version": "0.1.0",
+  "start_url": ".",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.3",
